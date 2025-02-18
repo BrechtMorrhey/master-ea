@@ -3,13 +3,48 @@ import fs from 'node:fs';
 import path from 'node:path';
 import anova1 from '@stdlib/stats-anova1'
 
-const inputFileName = 'companiesTransposed15022025.csv';
-const outputFileName = `companiesResult_${Date.now()}.csv`;
+const targetClass = 'SECTORS'; // set this to determine which data class to analyze
+const filtered = true; // set this to determine whether to filter the data
+const filePrefix = 
+    {
+        COMPANIES: 'companies',
+        COUNTRIES: 'countries',
+        SECTORS: 'sectors',
+        ROLES: 'roles',
+        ROLESEXPFILTERED: 'rolesExpFiltered'
+    };
+
+const inputFileName = `${filePrefix[targetClass]}Transposed.csv`;
+const outputFileName = `${filePrefix[targetClass]}Results_FilteredIs${filtered}_${Date.now()}.csv`;
+// filter classes ARRAY
+const filterClassesArrayMap = {
+    COMPANIES: [
+    'aaff',
+    'Baloise',
+    'Vattenfall',
+    'VidaXL'
+    ],
+    COUNTRIES: [
+        'Switzerland',
+        'Sweden'
+    ],
+    ROLES: [],
+    ROLESEXPFILTERED: [],
+    SECTORS: [
+        'Energy'
+    ]
+};
+const filterClassesArray = filterClassesArrayMap[targetClass];
+// turn filter classes into an object map
+const filterClasses = {};
+filterClassesArray.forEach(element => {
+    filterClasses[element] = filtered;
+});
 // log current working directory
 console.log(process.cwd());
 // create filepaths
-const inputFilePath = path.resolve(process.cwd(), `./data/companies/${inputFileName}`);
-const outputFilePath = path.resolve(process.cwd(), `./data/companies/${outputFileName}`);
+const inputFilePath = path.resolve(process.cwd(), `./data/${filePrefix[targetClass]}/${inputFileName}`);
+const outputFilePath = path.resolve(process.cwd(), `./data/${filePrefix[targetClass]}/${outputFileName}`);
 // create csv write stream
 const writeStream = fs.createWriteStream(outputFilePath, 'utf8');
 // create the stringifier
@@ -41,17 +76,26 @@ fs.createReadStream(inputFilePath, 'utf8').pipe(parse({ columns: false, delimite
                 headerClasses = inputRecord.slice(1);
                 outputRecord = [
                     'Question',
-                    'Statistic',
+                    'Statistic (F)',
                     'PValue',
                     'Null hypothesis rejected?'
                 ]
             } else {
                 // parse the inputRecord to integers
-                let numericInput = inputRecord.slice(1).map((value, index) => {
+                let rawInput = inputRecord.slice(1).map((value, index) => {
                     return parseInt(value);
                 });
+                // remove filter classes
+                let numericInput = [];
+                let filteredHeaderClasses = [];
+                for (let i = 0; i < rawInput.length; i++) {
+                    if (!filterClasses[headerClasses[i]]) {
+                        numericInput.push(rawInput[i]);
+                        filteredHeaderClasses.push(headerClasses[i]);
+                    }
+                }
                 // anova test the record
-                const anova = anova1(numericInput, headerClasses, { decision: true });
+                const anova = anova1(numericInput, filteredHeaderClasses, { decision: true });
                 console.log(anova);
                 // prepare the output record
                 outputRecord = [

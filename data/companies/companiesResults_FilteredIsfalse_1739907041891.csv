@@ -1,4 +1,4 @@
-Question;Statistic;PValue;Null hypothesis rejected?
+Question;Statistic (F);PValue;Null hypothesis rejected?
 To what extent does forgetting past decisions impact decision-making speed;1.5422270689446265;0.22312301256011757;false
 To what extent does forgetting past decision rationales impact decision-making speed;0.8717948717948715;0.5487923792823365;false
 To what extent does a formal architecture practice impact decision-making speed;1.1855910149294617;0.36433301084242087;false

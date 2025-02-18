@@ -1,0 +1,48 @@
+Question;Statistic (F);PValue;Null hypothesis rejected?
+To what extent does forgetting past decisions impact decision-making speed;0.055370985603543754;0.981879157306712;false
+To what extent does forgetting past decision rationales impact decision-making speed;0.7109322602280348;0.5673261298860461;false
+To what extent does a formal architecture practice impact decision-making speed;2.824302134646964;0.09301977314390752;false
+To what extent is decision-making speed impacted when the formal architecture practice has an advisory role instead of a decision-making role;1.7813051146384482;0.21414041115662852;false
+To what extent is decision-making speed impacted when the formal architecture has a mandated decision-making role instead of an advisory role.;1.3523809523809531;0.31253333700748376;false
+To what extent does the technical impact following the decision impact decision-making speed;0.3401360544217688;0.7969203478845787;false
+To what extent does the amount of stakeholders to be informed impact decision-making speed?;0.5197278911564627;0.6782012754969062;false
+To what extent does the amount of decision-makers impact decision-making speed;0.2756892230576441;0.8416698678111584;false
+To what extent does the comprehensiveness of the analysis that informs the decision impact decision-making speed;2.0634920634920646;0.16888011841108086;false
+To what extent does the amount of considered alternatives impact decision-making speed;1.7687074829931981;0.2164681297052179;false
+To what extent does how engaged your stakeholders are with the decision impact decision-making speed;1.8095238095238095;0.20903044565439743;false
+To what extent does time pressure impact decision-making speed;0.7906558849955077;0.5262962464803473;false
+To what extent do ill-defined problem statements impact decision-making speed;0.4380952380952379;0.7306840002540596;false
+To what extent does lacking available, qualitative information impact decision-making speed;0.14375561545372875;0.9313451661380275;false
+To what extent does lacking timely information (e.g., unavailable performance metrics, missing stakeholder feedback, ...) impact decision-making speed;0.18583042973286878;0.9036191462758989;false
+To what extent does lacking forecasting or predictive data impact decision-making speed;0.22289766970618027;0.87832098136248;false
+Action/feedback loops are the period between making a decision and measuring its outcomes. To what extent do action/feedback loops impact decision-making speed;0.3527336860670193;0.7882484648281868;false
+To what extent does an agile process impact decision-making speed;1.4128295946477762;0.29595770504919405;false
+To what extent does a decision's importance �such as its consequences for risk, ethics, or finances� affect decision-making speed.;0.11291114383897892;0.9505497770481245;false
+To what extent does defining a formal decision-making process with standards, roles, and responsibilities impact decision-making speed.;2.878986456968109;0.08932475139633933;false
+To what extent does the type and complexity of used architecture deliverables (as-is, to-be, gap analysis, matrices, diagrams etc.) impact the decision-making speed;0.9405745769382132;0.45707780830678835;false
+To what extent does the decision maker�s soft skills (communication style, listening skills, social skills) impact the decision-making speed;0.37037037037037035;0.7761721343162156;false
+To what extent does the decision maker�s personal characteristics (education, cognitive bias, mindset) impact the decision-making speed;0.8163265306122448;0.513722803133335;false
+To what extent does leadership style, such as involving everyone in decisions, delegating decisions to others, or making decisions independently, impact decision-making speed?;3.238095238095239;0.0689448242570685;false
+To what extent does proficiency in business and technology processes of the decision owner impact decision-making speed;0.3282478039759592;0.8051340257011079;false
+To what extent does the organization culture impact decision-making speed;0.847851335656214;0.4986975822273826;false
+To what extent does inter-office politics impact decision-making speed;0.4722386880063229;0.7083904722950761;false
+To what extent do organizational policy, goals, and norms affect decision-making speed;0.9137709137709137;0.4687229155128254;false
+To what extent does technology used in the organization impact decision-making speed;2.3809523809523805;0.13068229758506866;false
+Some markets move slower than others, e.g. governments vs retailers. To what extent do market dynamics of the organization impact decision-making speed;1.4285714285714295;0.29180564480614557;false
+To what extent does the economic status of the organization impact decision-making speed;2.35374149659864;0.13352820137605814;false
+To what extent does the number of decisions impact decision-making speed;1.1330049261083748;0.38202648158139807;false
+To what extent does the proficiency in business and technology processes of the decision sponsor impact decision-making speed;0.380952380952381;0.7689668319283458;false
+To what extent does the significance of the technical implications impact decision-making speed;1.7155903457273323;0.22660926655622393;false
+To what extent does the proficiency in business and technology processes of the team supporting the decision owner impact decision-making speed;0.3968253968253967;0.758221933509182;false
+To what extent does the presence of architecture design rules (e.g. Architectural principles) impact decision-making speed;0.08818342151675483;0.9649107893892245;false
+To what extent does the amount of architecture design rules (e.g. Architectural principles) impact decision-making speed;0.6878306878306878;0.57978485328208;false
+To what extent does the clarity of requirements affect decision-making speed;2.8320802005012555;0.09248334594337415;false
+To what extent does the amount of requirements affect decision-making speed;1.7623956799214526;0.21764536305183024;false
+To what extent does the abstraction level used in architecture artefacts (e.g., high-level conceptual diagrams, detailed technical blueprints) impact decision making speed;0.3448275862068966;0.793686719254268;false
+To what extent do missing elements in the problem statement impact decision-making speed;0.2075702075702075;0.8888501764798848;false
+To what extent does designing the state(s) in between the as-is and the to-be, also known as transition architectures, impact the decision-making speed;0.33523809523809517;0.8003011015728962;false
+To what extent does the time horizon of the decision impact decision-making speed;7.301587301587302;0.007035469086344781;true
+To what extent does decision complexity impact decision making speed;0.31198686371100165;0.8164076964505255;false
+To what extent do conflicts impact decision-making speed;1.9413919413919398;0.1869456215535178;false
+To what extent does the amount of input from experienced counselors (e.g., feedback from senior architects, technical experts, or external consultants) impact decision-making speed;0.45548654244306436;0.71926987604625;false
+To what extent does the amount of communication between different company levels, from strategic to tactical (e.g., alignment between C-level executives and operational teams or feedback loops between departments), impact decision-making speed;0.6015037593984963;0.6286322878452575;false

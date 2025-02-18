@@ -1,0 +1,48 @@
+Sector Cleaned;Consultancy;Consultancy;Retail;Consultancy;Retail;Retail;Retail;Retail;Retail;Retail;Retail;Retail;Consultancy;Groceries;Retail;Finance;Retail;Retail;Retail;Groceries;Energy;Finance;Retail;Retail
+To what extent does forgetting past decisions impact decision-making speed;1;2;1;2;3;2;2;1;2;3;3;2;2;2;2;3;3;1;3;2;0;2;3;2
+To what extent does forgetting past decision rationales impact decision-making speed;0;2;1;2;1;1;1;1;2;2;1;2;2;2;2;3;3;1;4;2;1;2;3;2
+To what extent does a formal architecture practice impact decision-making speed;1;3;1;3;1;2;2;2;2;0;2;0;3;2;2;4;3;3;3;3;2;1;1;2
+To what extent is decision-making speed impacted when the formal architecture practice has an advisory role instead of a decision-making role;3;1;3;2;3;3;1;2;3;3;2;1;2;3;1;3;2;1;2;2;1;1;3;2
+To what extent is decision-making speed impacted when the formal architecture has a mandated decision-making role instead of an advisory role.;3;2;3;3;3;3;2;3;3;3;3;1;1;2;2;4;2;1;2;2;2;3;0;4
+To what extent does the technical impact following the decision impact decision-making speed;2;3;1;2;2;3;1;2;2;3;3;2;3;2;1;1;2;1;2;4;1;3;1;2
+To what extent does the amount of stakeholders to be informed impact decision-making speed?;1;3;3;4;1;3;3;3;1;2;3;3;2;2;0;4;2;1;4;2;2;0;2;3
+To what extent does the amount of decision-makers impact decision-making speed;4;4;3;4;3;3;2;4;2;3;3;3;2;3;2;4;2;3;3;4;2;4;2;3
+To what extent does the comprehensiveness of the analysis that informs the decision impact decision-making speed;1;3;3;3;3;3;2;3;2;3;2;1;2;2;2;3;3;2;2;3;3;2;2;3
+To what extent does the amount of considered alternatives impact decision-making speed;1;3;1;3;1;3;3;3;2;2;1;1;3;3;2;4;1;2;3;3;3;2;2;2
+To what extent does how engaged your stakeholders are with the decision impact decision-making speed;3;3;3;4;4;1;2;3;2;3;4;2;3;3;2;4;3;3;4;4;4;4;2;1
+To what extent does time pressure impact decision-making speed;4;2;3;2;3;3;4;3;2;4;4;1;2;1;3;3;4;3;4;3;4;4;3;3
+To what extent do ill-defined problem statements impact decision-making speed;4;4;3;4;1;3;2;1;2;3;3;2;2;3;3;4;3;3;3;4;3;2;1;3
+To what extent does lacking available, qualitative information impact decision-making speed;4;3;3;4;2;2;2;3;2;2;2;2;1;2;3;3;2;3;2;3;3;3;1;3
+To what extent does lacking timely information (e.g., unavailable performance metrics, missing stakeholder feedback, ...) impact decision-making speed;4;2;3;1;3;3;2;3;2;3;3;1;2;3;3;3;3;3;2;3;3;2;1;3
+To what extent does lacking forecasting or predictive data impact decision-making speed;1;2;1;2;2;3;2;1;2;2;1;1;1;3;2;4;1;2;1;2;2;3;1;2
+Action/feedback loops are the period between making a decision and measuring its outcomes. To what extent do action/feedback loops impact decision-making speed;3;2;2;1;3;3;1;0;2;2;2;2;1;3;2;3;3;2;2;2;0;1;0;2
+To what extent does an agile process impact decision-making speed;0;4;3;4;1;1;2;0;2;1;3;1;2;2;2;2;3;3;2;3;3;1;0;2
+To what extent does a decision's importance —such as its consequences for risk, ethics, or finances— affect decision-making speed.;3;2;3;3;3;3;3;3;2;1;3;2;2;3;3;4;2;1;4;2;4;3;3;3
+To what extent does defining a formal decision-making process with standards, roles, and responsibilities impact decision-making speed.;0;2;2;3;3;3;3;3;3;1;1;1;1;3;1;3;2;1;0;3;3;3;2;3
+To what extent does the type and complexity of used architecture deliverables (as-is, to-be, gap analysis, matrices, diagrams etc.) impact the decision-making speed;3;2;3;4;3;3;1;3;2;3;1;1;2;1;1;4;1;2;1;3;2;4;1;3
+To what extent does the decision maker’s soft skills (communication style, listening skills, social skills) impact the decision-making speed;1;3;3;1;2;3;2;3;2;3;3;3;2;3;3;4;3;2;2;1;2;4;3;3
+To what extent does the decision maker’s personal characteristics (education, cognitive bias, mindset) impact the decision-making speed;4;3;3;2;1;0;2;0;2;1;3;3;2;3;3;3;2;3;4;1;1;3;3;3
+To what extent does leadership style, such as involving everyone in decisions, delegating decisions to others, or making decisions independently, impact decision-making speed?;4;4;2;4;1;3;2;3;2;3;3;3;2;2;3;3;2;3;4;3;1;3;3;4
+To what extent does proficiency in business and technology processes of the decision owner impact decision-making speed;3;3;3;4;2;3;3;2;2;3;2;3;2;3;1;4;3;2;4;3;3;1;2;3
+To what extent does the organization culture impact decision-making speed;3;2;3;4;1;3;3;3;2;3;3;2;1;2;3;4;3;2;4;3;4;4;3;4
+To what extent does inter-office politics impact decision-making speed;0;1;3;3;1;3;1;3;2;1;3;2;1;3;3;4;1;0;2;3;2;4;4;1
+To what extent do organizational policy, goals, and norms affect decision-making speed;1;2;2;3;4;3;3;2;2;2;2;1;1;3;1;2;1;2;1;4;4;3;2;3
+To what extent does technology used in the organization impact decision-making speed;3;2;1;3;2;3;2;0;2;2;3;2;4;2;3;1;3;3;3;4;3;2;2;3
+Some markets move slower than others, e.g. governments vs retailers. To what extent do market dynamics of the organization impact decision-making speed;3;3;4;3;4;3;3;3;2;4;4;1;4;2;3;2;3;3;3;2;3;4;3;2
+To what extent does the economic status of the organization impact decision-making speed;4;2;2;3;4;4;2;3;2;3;3;1;3;4;3;2;3;0;3;3;3;3;3;3
+To what extent does the number of decisions impact decision-making speed;1;3;1;2;2;3;2;2;2;1;3;2;2;3;2;2;2;2;2;3;3;4;1;2
+To what extent does the proficiency in business and technology processes of the decision sponsor impact decision-making speed;3;3;2;4;1;3;2;2;4;1;2;2;2;3;1;4;3;1;4;2;1;2;2;1
+To what extent does the significance of the technical implications impact decision-making speed;3;3;3;4;3;2;2;2;2;4;3;3;3;2;2;2;3;1;2;3;2;4;1;1
+To what extent does the proficiency in business and technology processes of the team supporting the decision owner impact decision-making speed;4;3;3;4;3;3;2;2;3;2;3;2;2;3;2;3;3;3;2;3;0;2;1;3
+To what extent does the presence of architecture design rules (e.g. Architectural principles) impact decision-making speed;3;2;2;3;2;2;1;3;2;1;2;0;2;3;1;2;3;3;1;2;2;2;1;2
+To what extent does the amount of architecture design rules (e.g. Architectural principles) impact decision-making speed;1;2;1;2;3;3;1;1;2;1;1;0;2;3;2;3;1;2;0;1;1;2;1;1
+To what extent does the clarity of requirements affect decision-making speed;3;3;3;3;4;3;2;2;4;3;3;2;2;3;1;4;3;3;3;4;3;4;1;2
+To what extent does the amount of requirements affect decision-making speed;3;2;3;4;4;3;2;2;2;3;3;2;2;2;2;3;0;2;2;3;3;2;1;1
+To what extent does the abstraction level used in architecture artefacts (e.g., high-level conceptual diagrams, detailed technical blueprints) impact decision making speed;3;3;3;2;1;3;1;3;2;1;3;1;2;2;1;3;3;1;2;3;2;2;1;3
+To what extent do missing elements in the problem statement impact decision-making speed;3;2;2;3;3;0;2;2;2;1;3;2;2;3;3;3;3;3;2;2;2;2;1;3
+To what extent does designing the state(s) in between the as-is and the to-be, also known as transition architectures, impact the decision-making speed;4;2;0;4;4;3;3;2;2;4;3;1;3;2;0;3;1;1;1;2;2;3;1;2
+To what extent does the time horizon of the decision impact decision-making speed;2;2;2;3;1;3;2;2;2;4;3;2;3;2;3;4;3;0;1;2;3;4;2;1
+To what extent does decision complexity impact decision making speed;3;3;4;2;2;3;2;3;2;4;2;2;3;3;2;4;1;1;3;3;4;4;2;3
+To what extent do conflicts impact decision-making speed;3;3;3;3;2;3;3;4;2;3;3;1;2;3;3;4;1;2;1;2;2;3;2;2
+To what extent does the amount of input from experienced counselors (e.g., feedback from senior architects, technical experts, or external consultants) impact decision-making speed;3;3;3;4;3;3;2;2;2;3;2;2;2;3;3;3;3;4;2;2;2;3;3;1
+To what extent does the amount of communication between different company levels, from strategic to tactical (e.g., alignment between C-level executives and operational teams or feedback loops between departments), impact decision-making speed;4;3;3;4;2;3;2;3;2;2;4;3;3;2;3;4;3;1;3;4;1;4;3;4
