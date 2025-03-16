@@ -3,15 +3,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import anova1 from '@stdlib/stats-anova1'
 
-const targetClass = 'SECTORS'; // set this to determine which data class to analyze
-const filtered = true; // set this to determine whether to filter the data
+const targetClass = 'RITUALS'; // set this to determine which data class to analyze
+const filtered = false; // set this to determine whether to filter the data
 const filePrefix = 
     {
         COMPANIES: 'companies',
         COUNTRIES: 'countries',
         SECTORS: 'sectors',
         ROLES: 'roles',
-        ROLESEXPFILTERED: 'rolesExpFiltered'
+        ROLESEXPFILTERED: 'rolesExpFiltered',
+        RITUALS: 'rituals'
     };
 
 const inputFileName = `${filePrefix[targetClass]}Transposed.csv`;
@@ -32,7 +33,8 @@ const filterClassesArrayMap = {
     ROLESEXPFILTERED: [],
     SECTORS: [
         'Energy'
-    ]
+    ], 
+    RITUALS: []
 };
 const filterClassesArray = filterClassesArrayMap[targetClass];
 // turn filter classes into an object map
