@@ -4,7 +4,7 @@ import path from 'node:path';
 import anova1 from '@stdlib/stats-anova1'
 
 const targetClass = 'RITUALS'; // set this to determine which data class to analyze
-const filtered = false; // set this to determine whether to filter the data
+const filtered = true; // set this to determine whether to filter the data
 const filePrefix = 
     {
         COMPANIES: 'companies',
@@ -34,7 +34,12 @@ const filterClassesArrayMap = {
     SECTORS: [
         'Energy'
     ], 
-    RITUALS: []
+    RITUALS: [
+    'aaff',
+    'Baloise',
+    'Vattenfall',
+    'VidaXL'
+    ]
 };
 const filterClassesArray = filterClassesArrayMap[targetClass];
 // turn filter classes into an object map
@@ -91,11 +96,18 @@ fs.createReadStream(inputFilePath, 'utf8').pipe(parse({ columns: false, delimite
                 let numericInput = [];
                 let filteredHeaderClasses = [];
                 for (let i = 0; i < rawInput.length; i++) {
-                    if (!filterClasses[headerClasses[i]]) {
-                        numericInput.push(rawInput[i]);
-                        filteredHeaderClasses.push(headerClasses[i]);
+                    let headerClass = headerClasses[i];
+                    const cellValue = rawInput[i]
+                    if (!filterClasses[headerClass]) {
+                        // for rituals we want to map non-ritual companies to a unified class
+                        if(targetClass === 'RITUALS' && headerClass !== 'Rituals') {
+                            headerClass = 'Not Rituals'
+                        }
+                        numericInput.push(cellValue);
+                        filteredHeaderClasses.push(headerClass);
                     }
                 }
+                
                 // anova test the record
                 const anova = anova1(numericInput, filteredHeaderClasses, { decision: true });
                 console.log(anova);
